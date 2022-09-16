@@ -2,72 +2,28 @@
 layout: page
 title: Committee
 styles:
-  - /css/committee.css
-scripts:
-  - /js/fadein.js
+    - /css/committee.css
 ---
-
 <h1>Committee</h1>
 
-<p>
-  The committee represents all of our members. We take responsibility for organising the society and running events throughout the year.
-</p>
-<p>
-  Find our previous committees <a href="/committee-archive.html">here</a>.
-</p>
-<p>
-  If you want to get in touch with one of our committee members, you can send us a message on Discord using our tags below or <a href="mailto:cssoc@cs.bham.ac.uk">send us an email</a>
-</p>
-<p>
-  You can also find all of the agendas from our committee meetings <a href="../agendas">here</a>.
-<p>
-  {% for committees in site.data.committee %}
-    {% assign committee = committees[1] %}
-    {% if committee.current %}
-      {% assign current_committee = committee %}
-      {% assign count = current_committee.people.size %}
-      {% for member in current_committee.people %}
-        {% if member.end-date %}
-          {% assign count = count | minus:1 %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-  Currently {{ count }} elected members for {{ current_committee.academic_year }}:
-</p>
+<p>The committee represents all members and organises events.</p>
 
+<p>Current members for {{ site.data.committee.year }}:</p>
 
-<div class="person-container fadein-container">
-  {% for committees in site.data.committee %}
-    {% assign committee = committees[1] %}
-    {% if committee.current %}
-      {% for person in committee.people %}
-        {% unless person.end-date %}
-        <div class="person fadein hidden">
-            <img class="picture" src="{{ person.picture | relative_url }}" alt="picture of {{ person.name }}">
-          <div class="details">
-            <span class="name">{{ person.name }}</span>
-            <span class="discordtag">{{ person.discordtag }}</span>
-            {% if person.pronouns %}
-              <span class="pronouns">
-                {{person.pronouns}}
-              </span>
-            {% endif %}
-            <p class="role">
-              {% if committee.prefix %}{{committee.prefix}}{% endif %}
-              {{ person.role }}
-              {% if committee.postfix %}{{committee.postfix}}{% endif %}
-              |
-              {{ person.start-date | date: "%b %Y" }} -
-              {{ person.end-date | date: "%b %Y" | default: "Present" }}
-            </p>
-            <p class="bio">
-              {{ person.bio }}
-            </p>
-          </div>
-        </div>
-        {% endunless %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+<div class="member-container">
+    {% for member in site.data.committee.members %}
+	<div class="member">
+	    <img src="{{ site.data.committee.image_path }}{{ member.image }}" alt="Picture of {{ member.name
+	      }}">
+	    <div class="details">
+		<div class="heading">
+		    <span class="role">{{ member.role }}</span>
+		    <span class="separator"> - </span>
+		    <span class="name">{{ member.name }}</span>
+		</div>
+		<p class="description">{{ member.description }}</p>
+	    </div>
+	</div>
+    {% endfor %}
 </div>
+

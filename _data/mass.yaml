@@ -1,0 +1,48 @@
+image_root: "/assets/images/parishes/"
+parishes:
+- name: "Newman House"
+  address: "29 Harrison's Rd, Birmingham B15 3QR"
+  image: "newman-house.jpg"
+  url: "/newman-house-website"
+  masses:
+    - 'Thursday 6pm'
+    - 'Sunday 6pm'
+  confession: '5.00-5.45pm Sunday'
+- name: "Birmingham Oratory"
+  address: "141 Hagley Rd, Birmingham B16 8UE"
+  image: "oratory.jpg"
+  url: "/birmingham-oratory-website"
+  masses:
+    - 'Weekdays 7.30am (English)'
+    - 'Weekdays 12.30pm (English)'
+    - 'Weekdays 5.45pm (Latin)'
+    - 'Saturday 9am (Latin)'
+    - 'Saturday 11am (English)'
+    - 'Saturday 5.30pm (English, Vigil of Sunday)'
+    - 'Sunday 7.30am (Latin)'
+    - 'Sunday 8.30am (English)'
+    - 'Sunday 10.30am (Latin, High Mass)'
+    - 'Sunday 12.15pm (English)'
+    - 'Sunday 5.30pm (English)'
+  confession: 'available during all Masses (apart from 7.30am on weekdays)'
+- name: "St. Mary's"
+  address: "St. Mary's, Vivian Rd, Harborne, Birmingham B17 0DN"
+  image: "st-marys.jpg"
+  url: "/st-marys-website"
+  masses:
+    - 'Weekdays 8.30am'
+    - 'Saturday 12pm'
+    - 'Saturday 6pm (Vigil of Sunday)'
+    - 'Sunday 9.30am'
+    - 'Sunday 11am'
+    - 'Sunday 5pm'
+  confession: '10.30-11.30am Saturday'
+- name: "St. Edward's"
+  address: "St. Edward's, Raddlebarn Rd, Selly Oak, Birmingham B29 7DB"
+  image: 'st-edwards.jpg'
+  url: '/st-edwards-website'
+  masses:
+    - 'Monday, Wednesday-Friday 9am (with Rosary)'
+    - 'Tuesday 7pm (with Rosary)'
+    - 'Saturday 6pm (Vigil of Sunday)'
+    - 'Sunday 10.15am'

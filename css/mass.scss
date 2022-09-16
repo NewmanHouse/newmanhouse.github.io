@@ -1,0 +1,140 @@
+---
+---
+
+@import url('https://fontlibrary.org//face/cmu-serif');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap');
+@import url('https://fontlibrary.org//face/kamillo-grotesk');
+@import url('https://fontlibrary.org//face/dynalight');
+@import url('https://fontlibrary.org//face/brisa-sans');
+@import url('https://fontlibrary.org//face/open-baskerville');
+
+$CS-Blue: #363C6E;
+$CS-Red: #99392D;
+$CS-Orange: #FE8801;
+
+
+$font-primary: 'KamilloGroteskRegular';
+$font-secondary: "Ovo", serif;
+$caligraphy-font: 'DynalightRegular';
+$font-serious: 'OpenBaskerville0053Normal';
+$font-text: 'BrisaSansRegular';
+
+$navbar-color: $CS-Red;
+$navbar-text-color: white;
+$navbar-hover-color: $CS-Orange;
+$background-color: $CS-Blue;
+$normal-text-color: black;
+$subtitle-grey: #B0B0B0;
+
+main {
+    font-family: $font-primary;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+h1 {
+    font-family: $caligraphy-font;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.parish {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: $CS-Red;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,  0.2);
+    border-radius: 10px;
+    max-width: 1000px;
+
+    button {
+	display: inline-block;
+	position: relative;
+	padding: 5px 10px;
+	font-size: 24px;
+	width: 100%;
+	background-color: $CS-Red;
+	border-style: none;
+	color: white;
+	font-weight: bold;
+    }
+
+
+    button:hover {
+	background-color: $CS-Orange;
+    }
+}
+
+.parish-contents {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    .image {
+	width: 500px;
+	height: 100%;
+	padding: 10px;
+	object-fit: cover;
+	flex: 0 0 auto;
+    }
+    
+    .address {
+	margin: 5px 0px;
+	font-size: 24px;
+	color: white;
+    }
+
+    a {
+	color: $subtitle-grey;
+    }
+
+    .details {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+    }
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    height: 350px;
+    width: 640px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .parish-contents {
+	.image {
+	    width: 400px;
+	}
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .parish-contents {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    }
+
+    .parish {
+	width: 300px;
+    }
+
+    iframe {
+	width: 300px;
+    }
+
+    main {
+	margin-left: 0px;
+	margin-right: 0px;
+    }
+
+    .description {
+	margin-left: 40px;
+	margin-right: 40px;
+    }
+}

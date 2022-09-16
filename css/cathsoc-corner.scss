@@ -1,0 +1,91 @@
+---
+---
+
+@import url('https://fontlibrary.org//face/cmu-serif');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap');
+@import url('https://fontlibrary.org//face/kamillo-grotesk');
+@import url('https://fontlibrary.org//face/dynalight');
+@import url('https://fontlibrary.org//face/brisa-sans');
+@import url('https://fontlibrary.org//face/open-baskerville');
+
+$CS-Blue: #363C6E;
+$CS-Red: #99392D;
+$CS-Orange: #FE8801;
+
+
+$font-primary: 'KamilloGroteskRegular';
+$font-secondary: "Ovo", serif;
+$caligraphy-font: 'DynalightRegular';
+$font-serious: 'OpenBaskerville0053Normal';
+$font-text: 'BrisaSansRegular';
+
+$navbar-color: $CS-Red;
+$navbar-text-color: white;
+$navbar-hover-color: $CS-Orange;
+$background-color: $CS-Blue;
+$normal-text-color: black;
+$subtitle-grey: #B0B0B0;
+
+main {
+    font-family: $font-primary;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+h1 {
+    font-family: $caligraphy-font;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.posts {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.post {
+    margin: 10px;
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    max-width: 1000px;
+    img {
+	width: 300px;
+	height: 100%;
+	flex: 0 0 auto;
+	object-fit: cover;
+    }
+
+    .details {
+	flex: 1 1 auto;
+	flex-direction: column;
+	padding: 10px;
+	display: text;
+	.title {
+	    font-size: 30px;
+	    font-weight: bold;
+	    color: $CS-Red;
+	}
+
+	.content {
+	    margin: 10px;
+	}
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .posts {
+	align-items: center;
+    }
+
+    .post {
+	flex-direction: column;
+	width: 300px;
+    }
+}

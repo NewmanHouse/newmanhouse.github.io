@@ -1,99 +1,113 @@
 ---
 ---
 
-.person-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+@import url('https://fontlibrary.org//face/cmu-serif');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap');
+@import url('https://fontlibrary.org//face/kamillo-grotesk');
+@import url('https://fontlibrary.org//face/dynalight');
+@import url('https://fontlibrary.org//face/brisa-sans');
+@import url('https://fontlibrary.org//face/open-baskerville');
+
+$CS-Blue: #363C6E;
+$CS-Red: #99392D;
+$CS-Orange: #FE8801;
+
+
+$font-primary: 'KamilloGroteskRegular';
+$font-secondary: "Ovo", serif;
+$caligraphy-font: 'DynalightRegular';
+$font-serious: 'OpenBaskerville0053Normal';
+$font-text: 'BrisaSansRegular';
+
+$navbar-color: $CS-Red;
+$navbar-text-color: white;
+$navbar-hover-color: $CS-Orange;
+$background-color: $CS-Blue;
+$normal-text-color: black;
+$subtitle-grey: #B0B0B0;
+
+main {
+    font-family: $font-primary;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
-.person {
-  opacity: 1;
-  transition: opacity 0.1s;
+h1 {
+    font-family: $caligraphy-font;
+    font-size: 40px;
+    font-weight: bold;
+}
 
-  &.hidden {
-    opacity: 0;
+.member-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.member {
+    margin: 10px;
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+
+    img {
+	width: 200px;
+	height: 100%;
+	flex: 0 0 auto;
+	object-fit: cover;
+    }
+
+    .details {
+	flex: 1 1 auto;
+	flex-direction: column;
+	padding: 10px;
+	display: text;
+	.heading {
+	    font-size: 30px;
+	    font-weight: bold;
+	    .name {
+		color: $CS-Red;
+	    }
+	}
+
+	.description {
+	    margin: 10px;
+	}
+    }
+
+}
+
+@media only screen and (max-width : 1500px) {
+  .member-container {
+    grid-template-columns: 1fr;
   }
 
-  background-color: #fdfdfd;
-  overflow: hidden;
-  border-radius: 10px;
-
-  display: flex;
-
-  margin: 10px;
-
-  align-items: center;
-
-  .picture {
-    width: 150px;
-    height: 100%;
-    object-fit: cover;
-    flex: 0 0 auto;
-    border-right: 1px solid #222;
-  }
-
-  .details {
-    min-height: 150px;
-
-    flex: 1 1 auto;
-    padding: 10px;
-
-    font-family: "JetBrains Mono", "Inconsolata", Monospaced;
-
-    .name {
-      font-weight: bold;
-    }
-
-    .pronouns {
-      color: #888;
-      &:before {
-        content: " | ";
-      }
-    }
-
-    .discordtag {
-      color: #888;
-      &:before {
-        content: " — @";
-      }
-    }
-
-    .role {
-      color: #888;
-    }
-
-    .bio {
-      margin-top: 0.5em;
-      margin-left: 1em;
-      color: black;
-
-      font-family: "Roboto", SansSerif;
-      font-size: 0.9em;
-      margin-bottom: 0;
-    }
+  .member {
+    max-width: 700px;
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .person {
+    @media only screen and (max-width : 800px) {
+
+  .member-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .member {
     flex-direction: column;
+    width: 300px;
 
-    .picture {
+    img {
       height: 150px;
       margin-top: 10px;
       margin-left: auto;
       margin-right: auto;
       border: 1px solid #222;
     }
-  }
-}
-
-@media only screen and (max-width: 1500px) {
-  .person-container {
-    grid-template-columns: 1fr;
-  }
-
-  .person {
-    max-width: 700px;
   }
 }

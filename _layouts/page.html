@@ -1,51 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% if page.title %}
-  <title>UoB Computer Science Society - {{ page.title }}</title>
-  {% else %}
-  <title>UoB Computer Science Society</title>
-  {% endif %}
+    {% if page.title %}
+	<title>CathSoc Birmingham - {{ page.title }}</title>
+    {% else %}
+	<title>CathSoc Birmingham</title>
+    {% endif %}
+    
+    <meta name="description" content="{{ site.description }}">
+    
+    <script src="{{ '/js/hamburger.js' | relative_url }}"></script>
 
-  <meta name="description" content="{{site.description}}">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="/assets/cathsoc-logo.png">
+    <meta name=viewport content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
-  <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/css/normalize.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
 
-  <script src="{{ '/js/hamburger.js' | relative_url }}"></script>
+    {% if page.styles %}
+    {% for style in page.styles %}
+    <link rel="stylesheet" href="{{ style | relative_url }}">
+    {% endfor %}
+    {% endif %}
+	
+    {% if page.scripts %}
+    {% for script in page.scripts %}
+    <script src="{{ script | relative_url }}"></script>
+    {% endfor %}
+    {% endif %}
 
-  <link rel="stylesheet" href="{{ '/css/normalize.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
-
-  {% if page.favicon %}
-  <link rel="icon" type="image/x-icon" href="{{ page.favicon }}">
-  {% endif %}
-
-  {% if page.styles %}
-  {% for style in page.styles %}
-  <link rel="stylesheet" href="{{ style | relative_url }}">
-  {% endfor %}
-  {% endif %}
-
-  {% if page.scripts %}
-  {% for script in page.scripts %}
-  <script src="{{ script | relative_url }}"></script>
-  {% endfor %}
-  {% endif %}
-
-  {% seo %}
 </head>
 <body>
-  {% include header.html %}
+    {% include header.html %}
+    
+    <main>
+	{{ content }}
+    </main>
 
-  <main>
-    <div id="freshers-banner">
-      <p>Joining us in September? Watch our <a href="https://www.youtube.com/watch?v=WK5tCf7m-ZM">welcome video</a> and <a href=/discord>meet everyone else over on Discord</a>.</p>
-    </div>
-
-    {{ content }}
-  </main>
-
-  {% include footer.html %}
+    {% include footer.html %}
 </body>
 </html>

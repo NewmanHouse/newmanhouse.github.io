@@ -1,0 +1,16 @@
+- name: Facebook
+  username: '@cathsocbrum'
+  url: '/facebook'
+  icon: '/assets/icons/facebook.svg'
+- name: Instagram
+  username: '@cathsocbrum'
+  url: '/instagram'
+  icon: '/assets/icons/instagram.svg'
+- name: Twitter
+  username: '@cathsocbrum'
+  url: '/twitter'
+  icon: '/assets/icons/twitter.svg'
+- name: Guild of Students
+  username: 'Join now!'
+  url: '/guild'
+  icon: '/assets/icons/guild.png'

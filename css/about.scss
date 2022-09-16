@@ -1,308 +1,76 @@
 ---
 ---
 
-h1,
-h2,
-h3,
-h4 {
-  padding: 0;
-  margin: 0;
-}
+@import url('https://fontlibrary.org//face/cmu-serif');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap');
+@import url('https://fontlibrary.org//face/kamillo-grotesk');
+@import url('https://fontlibrary.org//face/dynalight');
+@import url('https://fontlibrary.org//face/brisa-sans');
+@import url('https://fontlibrary.org//face/open-baskerville');
 
-#about {
-  font-size: 18px;
-}
+$CS-Blue: #363C6E;
+$CS-Red: #99392D;
+$CS-Orange: #FE8801;
 
-.flex-container {
-  display: flex;
-}
 
-.flex-v-center {
-  align-items: center;
-}
+$font-primary: 'KamilloGroteskRegular';
+$font-secondary: "Ovo", serif;
+$caligraphy-font: 'DynalightRegular';
+$font-serious: 'OpenBaskerville0053Normal';
+$font-text: 'BrisaSansRegular';
 
-.flex-container > div {
-  margin: 5px;
-}
+$navbar-color: $CS-Red;
+$navbar-text-color: white;
+$navbar-hover-color: $CS-Orange;
+$background-color: $CS-Blue;
+$normal-text-color: black;
+$subtitle-grey: #B0B0B0;
 
-.text-center {
-  text-align: center;
-}
 
-.text-img {
-  height: 1em;
-  width: 1em;
-  display: inline;
-}
-
-#about-profile {
-  margin: 20px 0;
-  h1 {
-    margin: 10px 0;
-  }
-  .button {
-    display: inline-block;
-    padding: 15px;
-    font-size: 20px;
+h1, h2, h3 {
     font-weight: bold;
-    border-radius: 10px;
-    text-decoration: none;
-    font-family: "Helvetica Neue", sans-serif;
-    width: 220px;
-    height: 25px;
-    margin-bottom: 5px;
-  }
+    text-decoration: underline;
+    margin: 0px;
 }
 
-#profile-pic {
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
-}
-
-#discord-button {
-  background-color: #738adb;
-  color: white;
-  i {
-    color: white;
-  }
-}
-
-#guild-button {
-  background-color: #5bbaa2;
-  color: white;
-  img {
-    vertical-align: middle;
-  }
-}
-
-#about-us {
-  background-color: #f1f3f8;
-  border-radius: 10px;
-  padding: 20px;
-  font-size: 18px;
-}
-
-#guild-and-uob {
-  margin: 20px 0;
-
-  #guild-and-uob-images {
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(3, 230px);
-  }
-
-  @media (max-width: 1000px) {
-    #guild-and-uob-images {
-      justify-content: center;
-      align-items: center;
-      display: grid;
-      grid-template-columns: 250px;
-    }
-  }
-}
-
-#get-involved {
-  margin: 20px 0;
-}
-
-#social {
-  #social-buttons {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(3, 185px);
-  }
-
-  .social-link {
-    display: inline-block;
-    width: 150px;
-    height: 25px;
-    text-decoration: none;
+h1 {
     text-align: center;
-    font-size: 20px;
-    background-color: #f1f3f8;
-    border-radius: 20px;
-    padding: 15px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    h4 {
-      font-family: "Helvetica Neue", sans-serif;
-      margin: 0;
-    }
-    h4,
-    i {
-      color: white;
-    }
-  }
-
-  @media (max-width: 600px) {
-    #social-buttons {
-      justify-content: center;
-      display: grid;
-      grid-template-columns: repeat(2, 185px);
-    }
-  }
-
-  @media (max-width: 400px) {
-    #social-buttons {
-      justify-content: center;
-      display: grid;
-      grid-template-columns: 185px;
-    }
-  }
-
-  .facebook {
-    background-color: #1877f2;
-  }
-
-  .insta {
-    background-color: #d13378;
-  }
-
-  .twitter {
-    background-color: #00a1f3;
-  }
-
-  .linkedin {
-    background-color: #0077b5;
-  }
-
-  .youtube {
-    background-color: #ea3223;
-  }
-
-  .github {
-    background-color: #161b22;
-  }
-}
-
-#sponsors {
-  #sponsors-images {
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(2, 185px);
-  }
-
-  #sponsors-buttons {
-    justify-content: center;
-    display: grid;
-  }
-
-  .sponsors-link {
-    display: inline-block;
-    width: 280px;
-    height: 30px;
     text-decoration: none;
+    font-size: 50px;
+    font-family: $caligraphy-font;
+}
+
+main {
+    img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+    }
     text-align: center;
-    font-size: 20px;
-    font-weight: bold;
+}
+
+a {
+    img {
+    display: initial;
+    margin-left: initial;
+    margin-right: initial;
+    text-align: left;
+    width: 40px;
+    height: 40px;
+    }
+}
+
+
+.text-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 20px;
     border-radius: 20px;
-    padding: 15px;
-    margin-bottom: 10px;
-    h4 {
-      font-family: "Helvetica Neue", sans-serif;
-      margin: 0;
+    * {
+        color: black;
     }
-    h4,
-    i {
-      color: white;
-    }
-  }
-
-  @media (max-width: 400px) {
-    #sponsors-images {
-      justify-content: center;
-      align-items: center;
-      display: grid;
-      grid-template-columns: 185px;
-    }
-
-    .sponsors-link {
-      width: 150px;
-      height: 55px;
-    }
-  }
-
-  .proposal {
-    background-color: #4a9efe; //TeX Detail Shadow
-  }
-}
-
-#constitution {
-  #constitution-buttons {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(2, 185px);
-  }
-
-  .constitution-link {
-    display: inline-block;
-    width: 150px;
-    height: 25px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 20px;
-    padding: 15px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    h4 {
-      font-family: "Helvetica Neue", sans-serif;
-      margin: 0;
-    }
-    h4,
-    i {
-      color: white;
-    }
-  }
-
-  @media (max-width: 400px) {
-    #constitution-buttons {
-      justify-content: center;
-      display: grid;
-      grid-template-columns: 185px;
-    }
-  }
-
-  .constitution {
-    background-color: #793fd8; //TeX Shadow
-  }
-
-  .agendas {
-    background-color: #3b37b6; //TeX Blue
-  }
-}
-
-#sparkles {
-  font-size: 30px;
-}
-
-#awards {
-  margin: 20px 0;
-}
-
-.trophy {
-  font-size: 30px;
-}
-
-#document {
-  font-size: 30px;
-}
-
-#heart {
-  font-size: 30px;
-}
-
-.emoji-bullet {
-  margin: 1px;
-}
-
-.subtext {
-  margin: 1px;
-  font-size: 15px;
-  font-style: italic;
+font-family: $font-text;
+font-size: 18px;
 }
