@@ -44,13 +44,13 @@ God's will.
 
 The Church has seven Sacraments:
 
-| Baptism | The washing away of all sin, both original and personal |
-| Confirmation | The final Rite of Initiation into the Church |
-| Eucharist | Receiving Jesus Christ's flesh and blood |
-| Penance | We humbly confess our sins to a priest |
-| Matrimony | A man and a woman unite themselves in marriage until separated by death |
-| Holy Orders | A man is ordained as a deacon, priest or bishop |
-| Anointing of the Sick | Physical and spiritual strength is conferred to a sick person, especially near the time of death |
+| **Baptism** | The washing away of all sin, both original and personal |
+| **Confirmation** | The final Rite of Initiation into the Church |
+| **Eucharist** | Receiving Jesus Christ's flesh and blood |
+| **Penance** | We humbly confess our sins to a priest |
+| **Matrimony** | A man and a woman unite themselves in marriage until separated by death |
+| **Holy Orders** | A man is ordained as a deacon, priest or bishop |
+| **Anointing of the Sick** | Physical and spiritual strength is conferred to a sick person, especially near the time of death |
 
 Sacraments are outward signs which confer inward grace given to us by God. For example, when we are baptised,
 God freely gives us the gift of forgiveness by His grace.
