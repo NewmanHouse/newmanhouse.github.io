@@ -1,7 +1,10 @@
 ---
 layout: 'textpage'
 title: 'Prayers'
+header-image: '/assets/images/faith/prayer.jpg'
 ---
+
+# Prayers
 
 As Catholics, we have many beautiful prayers. Here are a few of the most powerful:
 

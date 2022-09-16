@@ -1,7 +1,7 @@
 ---
 layout: textpage
 title: Ball
-header-image: /assets/images/ball-22.jpg
+header-image: /assets/images/ball-22/big-group.jpg
 styles:
     /css/events.css
 ---
@@ -18,4 +18,8 @@ Our 2022 Ball was the first Ball in three years due to Covid. Committee members 
 preparing food and decorating the hall. We all had a blast, enjoying delicious food and live music
 in a gorgeous venue.
 
-Photos can be found [here](/ball-photos-22).
+![](/assets/images/ball-22/CathSoc-Ball-2022-86.jpg)
+![](/assets/images/ball-22/CathSoc-Ball-2022-106.jpg)
+![](/assets/images/ball-22/CathSoc-Ball-2022-116.jpg)
+![](/assets/images/ball-22/CathSoc-Ball-2022-140.jpg)
+![](/assets/images/ball-22/CathSoc-Ball-2022-151.jpg)

@@ -1,6 +1,7 @@
 ---
 layout: 'textpage'
 title: 'Becoming a Catholic'
+header-image: '/assets/images/faith/becoming-catholic.jpg'
 ---
 
 # Becoming a Catholic

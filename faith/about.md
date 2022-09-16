@@ -1,6 +1,7 @@
 ---
 layout: textpage
 title: About our faith
+header-image: '/assets/images/faith/catholicism.png'
 ---
 
 # What is Catholicism?
@@ -15,7 +16,7 @@ Catholics believe all that the Church teaches to be true. This includes belief i
 (Jesus), and Holy Spirit), forgiveness of sins through baptism and confession, and that the Bible is
 the Word of God.
 
-# How do Catholics worship?
+## How do Catholics worship?
 
 Unceasingly! One of the amazing things about our universal Church is that someone somewhere in the
 world is always giving praise and thanks to God.
@@ -28,7 +29,7 @@ We also worship through private or group prayer, singing hymns or psalms, or att
 (silent prayer in the presence of the Eucharist). But these are certainly not the only forms of
 worship!
 
-# Do Catholics worship Mary and the Saints?
+## Do Catholics worship Mary and the Saints?
 
 No. This is a common misconception. We pray to Mary through traditional prayers such as the Hail
 Mary as well as through more conversational prayers. As Mary is the mother of Jesus, she played a
@@ -39,7 +40,7 @@ because they offer good examples of how to follow Christ. They can be our friend
 may pray to them for support and guidance in our daily lives or to show us how to be faithful to
 God's will.
 
-# What are the Sacraments?
+## What are the Sacraments?
 
 The Church has seven Sacraments:
 
