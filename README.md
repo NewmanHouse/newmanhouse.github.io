@@ -1,6 +1,6 @@
 # Cathsoc Birmingham Website
 
-The source code for the CathSoc Birmingham website.
+The source code for the Newman House website.
 
 ## Instructions
 
