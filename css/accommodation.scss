@@ -1,0 +1,195 @@
+---
+---
+
+@import url('https://fontlibrary.org//face/cmu-serif');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Ovo&display=swap');
+@import url('https://fontlibrary.org//face/kamillo-grotesk');
+@import url('https://fontlibrary.org//face/dynalight');
+@import url('https://fontlibrary.org//face/brisa-sans');
+@import url('https://fontlibrary.org//face/open-baskerville');
+
+$CS-Blue: #3F5182;
+$CS-Red: #800000;
+$CS-Orange: #FE8801;
+$CS-DarkPurple: #6000A9;
+$CS-Purple: #6C008D;
+$CS-Pink: #FE01D4;
+
+$NH-Gray: #4D4D4D;
+
+$font-primary: 'KamilloGroteskRegular';
+$font-secondary: "Ovo", serif;
+$caligraphy-font: 'DynalightRegular';
+$font-serious: 'OpenBaskerville0053Normal';
+$font-text: 'BrisaSansRegular';
+
+$navbar-color: $CS-Red;
+$navbar-text-color: white;
+$navbar-hover-color: $CS-Orange;
+$background-color: $CS-Blue;
+$normal-text-color: black;
+$subtitle-grey: #B0B0B0;
+$title-blue: #2C3059;
+
+main {
+    background-image: url('/assets/images/accommodation/ceilidh2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: $font-primary;
+}
+
+.info {
+    background-color: $CS-Orange;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style: solid;
+    a {
+        color: $NH-Gray;
+    }
+
+}
+
+.reasons {
+    background-color: $CS-Blue;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style: solid;
+}
+
+.banner {
+    font-family: $font-serious;
+    background-color: white;
+    margin: 10px;
+    max-width: 1200px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-color: black;
+    border-style: solid;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    img {
+        max-width: 700px;
+    }
+}
+
+.picture {
+    img {
+        height: 300px;
+        padding: 10px 10px;
+    }
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px;
+    border-color: black;
+    border-style: solid;
+}
+
+.picture-booking {
+    img {
+        height: 500px;
+        padding: 10px 10px;
+    }
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px;
+    border-color: black;
+    border-style: solid;
+}
+
+.pictures {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.documents {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-size: 24px;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+
+    span {
+        color: black;
+    }
+
+    a {
+        background-color: $CS-Blue;
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-color: black;
+        border-style: solid;
+    }
+}
+
+.reviews {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.review {
+    img {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    max-width: 500px;
+
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    margin: 40px;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    margin: 20px;
+
+    background-color: white;
+}
+

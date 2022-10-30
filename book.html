@@ -1,0 +1,39 @@
+---
+title: "Hall Bookings"
+layout: page
+styles:
+    - /css/accommodation.css
+---
+
+{% assign data = site.data.bookings %}
+
+<div class="banner">
+    <h1>Hall Bookings</h1>
+    <img src="/assets/images/accommodation/newman-house-front.jpg" alt="Newman House">
+</div>
+
+<div class="info">
+    <span>We hire out space downstairs to groups from Monday to Saturday each week.</span>
+</div>
+    
+<div class="reasons">
+    {% for reason in data.reasons %}
+    <ul>
+    <li>{{ reason }}</li>
+    </ul>
+    {% endfor %}
+    </div>
+</div>
+
+<div class="info">
+    <span>Please email Declan at <a href="mailto:managernewman@gmail.com">managernewman@gmail.com</a> if you would like to make a booking at Newman House.</span>
+</div>
+
+<div class="pictures">
+    {% for picture in data.pictures %}
+    <div class="picture-booking">
+        <img src="{{ data.image_root }}{{ picture.image }}"><br>
+        <span>{{ picture.caption }}</span>
+    </div>
+    {% endfor %}
+</div>

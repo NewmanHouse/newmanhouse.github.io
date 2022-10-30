@@ -8,10 +8,14 @@
 @import url('https://fontlibrary.org//face/brisa-sans');
 @import url('https://fontlibrary.org//face/open-baskerville');
 
-$CS-Blue: #363C6E;
-$CS-Red: #99392D;
+$CS-Blue: #3F5182;
+$CS-Red: #800000;
 $CS-Orange: #FE8801;
+$CS-DarkPurple: #6000A9;
+$CS-Purple: #6C008D;
+$CS-Pink: #FE01D4;
 
+$NH-Gray: #4D4D4D;
 
 $font-primary: 'KamilloGroteskRegular';
 $font-secondary: "Ovo", serif;
@@ -25,52 +29,45 @@ $navbar-hover-color: $CS-Orange;
 $background-color: $CS-Blue;
 $normal-text-color: black;
 $subtitle-grey: #B0B0B0;
+$title-blue: #2C3059;
 
-
-h1, h2, h3 {
-    font-weight: bold;
-    text-decoration: underline;
-    margin: 0px;
-}
-
-h1 {
-    text-align: center;
-    text-decoration: none;
-    font-size: 50px;
+main h1 {
     font-family: $font-serious;
-}
-
-main {
-    img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 25%;
-    }
     text-align: center;
+    font-size: 50px;
+    color: white;
 }
 
-a {
-    img {
-    display: initial;
-    margin-left: initial;
-    margin-right: initial;
-    text-align: left;
-    width: 40px;
-    height: 40px;
-    }
+main p {
+    font-family: $font-primary;
+    font-size: 24px;
+    text-align: center;
+    color: white;
 }
 
+.donor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
 
-.text-container {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 20px 20px;
-    border-radius: 20px;
-    * {
+.option {
+    margin: 10px;
+    p {
         color: black;
     }
-font-family: $font-text;
-font-size: 18px;
+    
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    align-items: center;
+    overflow: hidden;
+    max-width: 800px;
+    a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 100%;
+    }
 }

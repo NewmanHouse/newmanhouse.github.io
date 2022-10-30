@@ -1,0 +1,15 @@
+image_root: "/assets/images/"
+
+reasons:
+  - "Large hall and bar area"
+  - "Affordable rates"
+  - "Huge garden"
+  - "Ideal for all kinds of groups including choirs, student societies, social clubs and tutor groups."
+
+pictures:
+  - image: "hall.jpg"
+    caption: "Hall area"
+  - image: "bar.jpg"
+    caption: "Bar"
+  - image: "accommodation/garden.jpg"
+    caption: "Garden"

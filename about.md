@@ -5,36 +5,37 @@ styles:
     - /css/about.css
 ---
 
-![Cathsoc Logo](/assets/cathsoc-logo.png "CathSoc Logo")
+![Birmingham Archdiocese Logo](/assets/archdiocese-logo.png "Archdiocese Logo")
 
-# CathSoc
+# Newman House
 
-As the Catholic Society at the University of Birmingham, we provide a space for students to
-socialise, have fun and explore the Catholic faith. All are welcome at CathSoc, including
-non-students or those at other universities, as well as non-Catholics.
+Newman House is the Catholic Chaplaincy for the University of Birmingham. We provide a chapel,
+accommodation for students, and facilities for running events, including a hall, bar area and
+commercial grade kitchen. [CathSoc](/cathsoc) run regular events here. Newman House is named after **Saint John Henry Cardinal Newman**.
 
-## Get involved
-
-We host a **[weekly social](/events/sunday-socials)** every Sunday during termtime at **[Newman House](/newman-house)**
-after the 6pm Mass. We also run **[weekly sessions](/events/sycamore)** exploring our Faith, as well as
-**[day trips](/events/day-trips)**, **[Ceilidhs](/events/ceilidh)** and our **[annual Ball](/events/ball)**. 
-No membership is required to attend!
-
-**[Become a member](/guild)** to receive discounts on our ticketed events and for the chance to vote for a new
-committee every year. It only costs £3 for the entire year!
+We're located just off campus in **Edgbaston**. Mass is said here and at [St Francis
+Hall](/stfrancishall), the
+multi-faith chaplaincy on campus. Mass times can be found [here](/mass-times).
 
 ## Social media
 
 Keep up-to-date by following our social media accounts:
 
-[![CathSoc Facebook](/assets/icons/facebook.svg "@cathsocbrum")](/facebook)
-[![CathSoc Instagram](/assets/icons/instagram.svg "@cathsocbrum")](/instagram)
-[![CathSoc Twitter](/assets/icons/twitter.svg "@cathsocbrum")](/twitter)
+[![Newman House Facebook](/assets/icons/facebook.svg "Newman House")](/facebook)
+[![Chaplains Instagram](/assets/icons/instagram.svg "@catholic_uob")](/instagram)
 
 ### Contact us
 
-<cathsoc@guild.bham.ac.uk>
+Newman House manager (Declan): <managernewman@gmail.com>
+
+Phone: 01214544395
 
 ### Website Credits
 
 Much of this website was based on the [CSS Website](https://www.cssbham.com). Many thanks to the [CSS Website Contributors](https://github.com/CSSUoB/cssuob.github.io/graphs/contributors)!
+
+## Find us
+
+[29 Harrisons Road,<br>
+Edgbaston,<br>
+Birmingham B15 3QR](/maps)

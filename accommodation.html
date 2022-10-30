@@ -1,0 +1,55 @@
+---
+title: Accommodation
+layout: page
+styles:
+    - /css/accommodation.css
+---
+
+{% assign data = site.data.accommodation %}
+
+<div class="banner">
+<h1>Accommodation</h1>
+<img src="/assets/images/accommodation/newman-house-front.jpg" alt="Newman House">
+</div>
+
+<div class="info">
+<span>We provide accommodation for up to 11 students in a quiet, leafy neighbourhood in Edgbaston.</span>
+</div>
+
+<div class="reasons">
+{% for reason in data.reasons %}
+<ul>
+<li>{{ reason }}</li>
+</ul>
+{% endfor %}
+</div>
+
+<div class="pictures">
+{% for picture in data.pictures %}
+<div class="picture">
+    <img src="{{ site.data.accommodation.image_root }}{{ picture.image }}"><br>
+    <span>{{ picture.caption }}</span>
+</div>
+{% endfor %}
+</div>
+
+<div class="documents">
+{% for doc in data.documents %}
+<a href="{{ doc.path }}"><span>{{ doc.title }}</span></a>
+{% endfor %}
+</div>
+
+<div class="info">
+<span>Please email Declan at <a href="mailto:managernewman@gmail.com">managernewman@gmail.com</a> if you are interested in staying at Newman House.</span>
+</div>
+
+
+<div class="reviews">
+{% for review in data.reviews %}
+    <div class="review">
+        <h3>{{ review.name }}</h3>
+        <p>{{ review.desc }}</p>
+        <img src="{{ site.data.accommodation.image_root }}{{ review.image }}" alt="Picture of {{ review.name }}">
+    </div>
+{% endfor %}
+</div>

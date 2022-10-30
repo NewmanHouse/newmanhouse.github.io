@@ -3,16 +3,11 @@ layout: page
 ---
 
 <div class="centerpiece">
-    <h1>Catholic Society</h1>
-    <h2>University of Birmingham</h2>
+    <h1>Newman House</h1>
+    <h2>University of Birmingham Catholic Chaplaincy</h2>
     
-    <div class="socials">
-    {% for social in site.data.socials %}
-	<a href="{{ social.url | relative_path }}">
-	    <img src="{{ social.icon }}" height="30px" width="30px" alt="{{ social.name }}">
-	    <span>{{ social.username }}</span>
-	</a><br>
-    {% endfor %}
+    <div class="timetable">
+	<img src="/assets/timetable.png" alt="The Mass times for the current week">
     </div>
 
 </div>

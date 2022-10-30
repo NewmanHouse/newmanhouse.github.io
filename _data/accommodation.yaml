@@ -1,0 +1,31 @@
+image_root: "/assets/images/accommodation/"
+
+reasons:
+  - "Supportive Catholic community and chapel where Mass is celebrated, which is always open to residents."
+  - "15 minutes walk from campus and University train station"
+  - "10 minutes walk from Harborne High Street."
+  - "Inexpensive, with bills included."
+
+pictures:
+  - image: "bed.jpg"
+    caption: "Bedroom"
+  - image: "sink.jpg"
+    caption: "Sink in bedroom"
+  - image: "chapel.jpg"
+    caption: "Chapel"
+  - image: "garden.jpg"
+    caption: "Garden"
+
+reviews:
+  - name: "Francis"
+    desc: "In a homely, green and safe neighbourhood, Newman House is the ideal place for students. Living here, you will only be a short walk away from the campus and the high street. The rooms are sizeable and the large windows keep us connected to nature, whether sunshine or soothing rain. The chapel with Jesus in the Blessed Sacrament and the large private garden (with newly planted roses!) distinguishes it from other accommodations. The chaplains and student residents have hearts of gold and have made Newman a home away from home for countless international students like me. Our gatherings are always exciting: movie nights, hearty dinners, campfires and anything enjoyable that you suggest after joining us!"
+    image: "reviewers/francis.jpg"
+  - name: "Ursula"
+    desc: "Having moved into Newman House in my first year and stayed here for two years now, I can honestly say my time here has been a treat. Beyond the generously sized rooms and cosy communal areas, there is such a wonderful, welcoming community here. With frequent house meals, movie nights, table tennis games and bonfires, there is never a dull moment! I can’t emphasize enough how much living here has really enhanced my whole university experience; whether it’s time to have fun, time to work or time to pray, I’ve always found I can be sure of supportive and brilliant company here at Newman House. With so many happy memories and great friends from my time here so far, I’m really looking forward to making many more in the upcoming years!"
+    image: "reviewers/ursula.jpg"
+
+documents:
+  - title: "Accommodation Form"
+    path: "/assets/accommodation/Newman-House-Application-2022_23.pdf"
+  - title: "Terms and conditions"
+    path: "/assets/accommodation/NH-Terms-and-Conditions-2023.pdf"
